@@ -48,7 +48,7 @@ Follow these steps to set up the development environment:
    - Add the required environment variables to the `.env` file:
      ```plaintext
      VITE_GDRIVE_API_KEY=your_api_key
-     API_KEY=your_client_id
+     VITE_GDRIVE_CLIENT_ID=your_client_id
      ```
    - To get a client ID and API key ,from Google, go to your [Google Cloud Console](https://console.cloud.google.com/) and create a new project
    - Enable the Google Drive API in the Google Cloud console
